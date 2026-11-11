@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img"
+    aria-label="Peminjaman Kampus">
+    <!-- Logo bawaan aplikasi: kalender dengan pintu ruang. Bisa diganti dari menu Pengaturan >
+    Aplikasi. -->
+    <rect width="64" height="64" rx="16" fill="#7367F0" />
+    <rect x="14" y="17" width="36" height="33" rx="5" fill="none" stroke="#fff" stroke-width="4" />
+    <path d="M14 27h36" stroke="#fff" stroke-width="4" />
+    <path d="M23 12v9M41 12v9" stroke="#fff" stroke-width="4" stroke-linecap="round" />
+    <rect x="26" y="32" width="12" height="18" rx="1.5" fill="#fff" />
+    <circle cx="35" cy="41.5" r="1.6" fill="#7367F0" />
+</svg>

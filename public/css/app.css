@@ -1,0 +1,35 @@
+.dropdown-notifications-item a {
+    text-decoration: none;
+}
+.kartu-pilihan {
+    cursor: pointer;
+    transition:
+        border-color 0.15s,
+        box-shadow 0.15s;
+}
+.kartu-pilihan.terpilih {
+    border-color: var(--bs-primary) !important;
+    box-shadow: 0 0 0 0.15rem rgba(115, 103, 240, 0.25);
+}
+.kartu-pilihan.tidak-tersedia {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+.status-ketersediaan:empty {
+    display: none;
+}
+.foto-ruang {
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+}
+.kosong {
+    padding: 3rem 1rem;
+    text-align: center;
+    color: var(--bs-secondary-color);
+}
+.kosong i {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
