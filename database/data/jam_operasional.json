@@ -1,0 +1,51 @@
+[
+    {
+        "hari": 0,
+        "nama_hari": "Minggu",
+        "buka": "07:00",
+        "tutup": "21:00",
+        "aktif": false
+    },
+    {
+        "hari": 1,
+        "nama_hari": "Senin",
+        "buka": "07:00",
+        "tutup": "21:00",
+        "aktif": true
+    },
+    {
+        "hari": 2,
+        "nama_hari": "Selasa",
+        "buka": "07:00",
+        "tutup": "21:00",
+        "aktif": true
+    },
+    {
+        "hari": 3,
+        "nama_hari": "Rabu",
+        "buka": "07:00",
+        "tutup": "21:00",
+        "aktif": true
+    },
+    {
+        "hari": 4,
+        "nama_hari": "Kamis",
+        "buka": "07:00",
+        "tutup": "21:00",
+        "aktif": true
+    },
+    {
+        "hari": 5,
+        "nama_hari": "Jumat",
+        "buka": "07:00",
+        "tutup": "21:00",
+        "aktif": true
+    },
+    {
+        "hari": 6,
+        "nama_hari": "Sabtu",
+        "buka": "07:00",
+        "tutup": "21:00",
+        "aktif": true
+    }
+]

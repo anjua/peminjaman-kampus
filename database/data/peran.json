@@ -1,0 +1,26 @@
+[
+    {
+        "kode": "admin",
+        "nama": "Administrator",
+        "keterangan": "Akses penuh ke semua fitur",
+        "hak_akses": "*"
+    },
+    {
+        "kode": "petugas",
+        "nama": "Petugas Sarpras",
+        "keterangan": "Memproses pengajuan dan pengembalian",
+        "hak_akses": [
+            "akses-panel-admin",
+            "proses-persetujuan",
+            "lihat-semua-peminjaman",
+            "catat-pengembalian",
+            "kelola-denda"
+        ]
+    },
+    {
+        "kode": "peminjam",
+        "nama": "Peminjam",
+        "keterangan": "Mahasiswa, dosen, atau ormawa",
+        "hak_akses": ["ajukan-peminjaman"]
+    }
+]

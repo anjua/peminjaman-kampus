@@ -1,0 +1,22 @@
+[
+    {
+        "kode": "menunggu",
+        "label": "Menunggu",
+        "warna": "warning",
+        "urutan": 1
+    },
+    {
+        "kode": "disetujui",
+        "label": "Disetujui",
+        "warna": "success",
+        "urutan": 2
+    },
+    { "kode": "ditolak", "label": "Ditolak", "warna": "danger", "urutan": 3 },
+    {
+        "kode": "dibatalkan",
+        "label": "Dibatalkan",
+        "warna": "secondary",
+        "urutan": 4
+    },
+    { "kode": "selesai", "label": "Selesai", "warna": "info", "urutan": 5 }
+]

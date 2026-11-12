@@ -1,0 +1,98 @@
+[
+    {
+        "kode": "AULA-01",
+        "nama": "Aula Utama",
+        "lokasi": "Gedung Rektorat Lt. 1",
+        "kapasitas": 300,
+        "fasilitas": "Panggung, sound system, AC, proyektor",
+        "aktif": true
+    },
+    {
+        "kode": "SEM-301",
+        "nama": "Ruang Seminar Lt. 3",
+        "lokasi": "Gedung A Lt. 3",
+        "kapasitas": 80,
+        "fasilitas": "Proyektor, AC, mikrofon",
+        "aktif": true
+    },
+    {
+        "kode": "LAB-K1",
+        "nama": "Lab Komputer 1",
+        "lokasi": "Gedung B Lt. 2",
+        "kapasitas": 40,
+        "fasilitas": "40 PC, proyektor, AC",
+        "aktif": true
+    },
+    {
+        "kode": "LAB-K2",
+        "nama": "Lab Komputer 2",
+        "lokasi": "Gedung B Lt. 2",
+        "kapasitas": 40,
+        "fasilitas": "40 PC, proyektor, AC",
+        "aktif": true
+    },
+    {
+        "kode": "LAB-K3",
+        "nama": "Lab Komputer 3",
+        "lokasi": "Gedung B Lt. 3",
+        "kapasitas": 30,
+        "fasilitas": "30 PC, smart TV",
+        "aktif": true
+    },
+    {
+        "kode": "KLS-A201",
+        "nama": "Kelas A201",
+        "lokasi": "Gedung A Lt. 2",
+        "kapasitas": 45,
+        "fasilitas": "Proyektor, papan tulis",
+        "aktif": true
+    },
+    {
+        "kode": "KLS-A202",
+        "nama": "Kelas A202",
+        "lokasi": "Gedung A Lt. 2",
+        "kapasitas": 45,
+        "fasilitas": "Proyektor, papan tulis",
+        "aktif": true
+    },
+    {
+        "kode": "RAPAT-1",
+        "nama": "Ruang Rapat Dekanat",
+        "lokasi": "Gedung C Lt. 1",
+        "kapasitas": 20,
+        "fasilitas": "Meja rapat, TV, video conference",
+        "aktif": true
+    },
+    {
+        "kode": "STUDIO",
+        "nama": "Studio Multimedia",
+        "lokasi": "Gedung B Lt. 1",
+        "kapasitas": 15,
+        "fasilitas": "Green screen, lampu studio, peredam",
+        "aktif": true
+    },
+    {
+        "kode": "SC-01",
+        "nama": "Student Center",
+        "lokasi": "Gedung Kemahasiswaan",
+        "kapasitas": 120,
+        "fasilitas": "Kursi lipat, sound system",
+        "aktif": true
+    },
+    {
+        "kode": "PERPUS-D",
+        "nama": "Ruang Diskusi Perpustakaan",
+        "lokasi": "Perpustakaan Lt. 2",
+        "kapasitas": 12,
+        "fasilitas": "Meja bundar, whiteboard",
+        "aktif": true
+    },
+    {
+        "kode": "LAPANGAN",
+        "nama": "Lapangan Serbaguna",
+        "lokasi": "Area Olahraga",
+        "kapasitas": 500,
+        "fasilitas": "Outdoor, tribun",
+        "aktif": true
+    }
+]

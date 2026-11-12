@@ -1,0 +1,79 @@
+[
+    {
+        "kode": "pengajuan_baru",
+        "nama": "Pengajuan baru (untuk petugas)",
+        "judul": "Pengajuan baru dari {nama_peminjam}",
+        "isi": "{nama_peminjam} mengajukan {ruang} {alat} pada {waktu_mulai}.",
+        "ikon": "ti ti-calendar-plus",
+        "warna": "primary",
+        "kanal": ["database"],
+        "penerima": "hak:proses-persetujuan",
+        "aktif": true
+    },
+    {
+        "kode": "disetujui",
+        "nama": "Pengajuan disetujui",
+        "judul": "Peminjaman disetujui",
+        "isi": "Halo {nama_peminjam}, peminjaman {ruang} pada {waktu_mulai} sudah disetujui.",
+        "ikon": "ti ti-circle-check",
+        "warna": "success",
+        "kanal": ["database"],
+        "penerima": "peminjam",
+        "aktif": true
+    },
+    {
+        "kode": "ditolak",
+        "nama": "Pengajuan ditolak",
+        "judul": "Peminjaman ditolak",
+        "isi": "Maaf {nama_peminjam}, peminjaman {ruang} pada {waktu_mulai} ditolak. Catatan: {catatan_admin}",
+        "ikon": "ti ti-circle-x",
+        "warna": "danger",
+        "kanal": ["database"],
+        "penerima": "peminjam",
+        "aktif": true
+    },
+    {
+        "kode": "dibatalkan",
+        "nama": "Pengajuan dibatalkan (untuk petugas)",
+        "judul": "Pengajuan dibatalkan",
+        "isi": "{nama_peminjam} membatalkan peminjaman {ruang} pada {waktu_mulai}.",
+        "ikon": "ti ti-calendar-off",
+        "warna": "secondary",
+        "kanal": ["database"],
+        "penerima": "hak:proses-persetujuan",
+        "aktif": true
+    },
+    {
+        "kode": "pengingat_mulai",
+        "nama": "Pengingat sebelum mulai",
+        "judul": "Peminjaman segera dimulai",
+        "isi": "Pengingat: peminjaman {ruang} {alat} dimulai {waktu_mulai}.",
+        "ikon": "ti ti-alarm",
+        "warna": "info",
+        "kanal": ["database"],
+        "penerima": "peminjam",
+        "aktif": true
+    },
+    {
+        "kode": "alat_terlambat",
+        "nama": "Alat terlambat dikembalikan",
+        "judul": "Alat belum dikembalikan",
+        "isi": "Halo {nama_peminjam}, {alat} seharusnya dikembalikan {waktu_selesai}. Segera kembalikan agar denda tidak bertambah.",
+        "ikon": "ti ti-alert-triangle",
+        "warna": "warning",
+        "kanal": ["database"],
+        "penerima": "peminjam",
+        "aktif": true
+    },
+    {
+        "kode": "denda_dicatat",
+        "nama": "Denda dicatat",
+        "judul": "Denda keterlambatan {denda}",
+        "isi": "Pengembalian {alat} terlambat. Denda {denda} harus dilunasi sebelum mengajukan lagi.",
+        "ikon": "ti ti-cash",
+        "warna": "danger",
+        "kanal": ["database"],
+        "penerima": "peminjam",
+        "aktif": true
+    }
+]

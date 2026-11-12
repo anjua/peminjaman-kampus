@@ -1,0 +1,122 @@
+[
+    {
+        "kode": "PRY-EPS",
+        "nama": "Proyektor Epson EB-X51",
+        "stok": 6,
+        "kondisi": "baik",
+        "denda_per_jam": null,
+        "aktif": true
+    },
+    {
+        "kode": "PRY-BNQ",
+        "nama": "Proyektor BenQ MX560",
+        "stok": 3,
+        "kondisi": "baik",
+        "denda_per_jam": null,
+        "aktif": true
+    },
+    {
+        "kode": "LAYAR",
+        "nama": "Layar Proyektor Tripod",
+        "stok": 5,
+        "kondisi": "baik",
+        "denda_per_jam": null,
+        "aktif": true
+    },
+    {
+        "kode": "SOUND-P",
+        "nama": "Sound System Portable",
+        "stok": 4,
+        "kondisi": "baik",
+        "denda_per_jam": 10000,
+        "aktif": true
+    },
+    {
+        "kode": "MIC-WL",
+        "nama": "Mikrofon Wireless",
+        "stok": 8,
+        "kondisi": "baik",
+        "denda_per_jam": null,
+        "aktif": true
+    },
+    {
+        "kode": "CAM-DSLR",
+        "nama": "Kamera DSLR Canon 90D",
+        "stok": 2,
+        "kondisi": "baik",
+        "denda_per_jam": 20000,
+        "aktif": true
+    },
+    {
+        "kode": "TRIPOD",
+        "nama": "Tripod Kamera",
+        "stok": 4,
+        "kondisi": "baik",
+        "denda_per_jam": null,
+        "aktif": true
+    },
+    {
+        "kode": "LAPTOP",
+        "nama": "Laptop Presentasi",
+        "stok": 5,
+        "kondisi": "baik",
+        "denda_per_jam": 15000,
+        "aktif": true
+    },
+    {
+        "kode": "HT",
+        "nama": "Handy Talky",
+        "stok": 10,
+        "kondisi": "baik",
+        "denda_per_jam": null,
+        "aktif": true
+    },
+    {
+        "kode": "KABEL-HD",
+        "nama": "Kabel HDMI 10 m",
+        "stok": 10,
+        "kondisi": "baik",
+        "denda_per_jam": null,
+        "aktif": true
+    },
+    {
+        "kode": "TERMINAL",
+        "nama": "Kabel Roll / Terminal",
+        "stok": 12,
+        "kondisi": "baik",
+        "denda_per_jam": null,
+        "aktif": true
+    },
+    {
+        "kode": "POINTER",
+        "nama": "Laser Pointer",
+        "stok": 6,
+        "kondisi": "baik",
+        "denda_per_jam": null,
+        "aktif": true
+    },
+    {
+        "kode": "SPEAKER-A",
+        "nama": "Speaker Aktif 15 inch",
+        "stok": 2,
+        "kondisi": "rusak_ringan",
+        "denda_per_jam": 10000,
+        "aktif": true
+    },
+    {
+        "kode": "TENDA",
+        "nama": "Tenda Lipat 3x3",
+        "stok": 6,
+        "kondisi": "baik",
+        "denda_per_jam": null,
+        "aktif": true
+    },
+    {
+        "kode": "KURSI",
+        "nama": "Kursi Lipat (paket 10)",
+        "stok": 20,
+        "kondisi": "baik",
+        "denda_per_jam": null,
+        "aktif": true
+    }
+]

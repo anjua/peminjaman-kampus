@@ -1,0 +1,200 @@
+[
+    {
+        "kunci": "peminjaman.durasi_min_menit",
+        "nilai": "30",
+        "tipe": "integer",
+        "grup": "peminjaman",
+        "label": "Durasi minimal (menit)",
+        "keterangan": "Peminjaman lebih singkat dari ini ditolak.",
+        "urutan": 1
+    },
+    {
+        "kunci": "peminjaman.durasi_maks_jam",
+        "nilai": "8",
+        "tipe": "integer",
+        "grup": "peminjaman",
+        "label": "Durasi maksimal (jam)",
+        "keterangan": null,
+        "urutan": 2
+    },
+    {
+        "kunci": "peminjaman.jeda_pengajuan_jam",
+        "nilai": "2",
+        "tipe": "integer",
+        "grup": "peminjaman",
+        "label": "Pengajuan paling lambat (jam sebelum mulai)",
+        "keterangan": null,
+        "urutan": 3
+    },
+    {
+        "kunci": "peminjaman.maks_hari_ke_depan",
+        "nilai": "30",
+        "tipe": "integer",
+        "grup": "peminjaman",
+        "label": "Pengajuan paling jauh (hari ke depan)",
+        "keterangan": null,
+        "urutan": 4
+    },
+    {
+        "kunci": "peminjaman.maks_aktif",
+        "nilai": "3",
+        "tipe": "integer",
+        "grup": "peminjaman",
+        "label": "Maksimal pengajuan aktif per peminjam",
+        "keterangan": "Dihitung dari status menunggu dan disetujui yang belum lewat.",
+        "urutan": 5
+    },
+    {
+        "kunci": "peminjaman.batas_batal_jam",
+        "nilai": "2",
+        "tipe": "integer",
+        "grup": "peminjaman",
+        "label": "Batas pembatalan (jam sebelum mulai)",
+        "keterangan": "Berlaku untuk peminjaman yang sudah disetujui.",
+        "urutan": 6
+    },
+    {
+        "kunci": "peminjaman.kedaluwarsa_otomatis",
+        "nilai": "1",
+        "tipe": "boolean",
+        "grup": "peminjaman",
+        "label": "Tolak otomatis pengajuan yang lewat waktu",
+        "keterangan": null,
+        "urutan": 7
+    },
+    {
+        "kunci": "denda.aktif",
+        "nilai": "1",
+        "tipe": "boolean",
+        "grup": "denda",
+        "label": "Denda keterlambatan aktif",
+        "keterangan": null,
+        "urutan": 1
+    },
+    {
+        "kunci": "denda.per_jam",
+        "nilai": "5000",
+        "tipe": "integer",
+        "grup": "denda",
+        "label": "Tarif umum per jam per unit (Rp)",
+        "keterangan": "Dipakai jika alat tidak punya tarif sendiri.",
+        "urutan": 2
+    },
+    {
+        "kunci": "denda.toleransi_menit",
+        "nilai": "15",
+        "tipe": "integer",
+        "grup": "denda",
+        "label": "Toleransi keterlambatan (menit)",
+        "keterangan": null,
+        "urutan": 3
+    },
+    {
+        "kunci": "denda.blokir_jika_belum_lunas",
+        "nilai": "1",
+        "tipe": "boolean",
+        "grup": "denda",
+        "label": "Blokir pengajuan jika denda belum lunas",
+        "keterangan": null,
+        "urutan": 4
+    },
+    {
+        "kunci": "pengembalian.pilihan_kondisi",
+        "nilai": "{\"baik\":\"Baik\",\"rusak_ringan\":\"Rusak ringan\",\"rusak_berat\":\"Rusak berat\"}",
+        "tipe": "json",
+        "grup": "denda",
+        "label": "Pilihan kondisi alat",
+        "keterangan": "Format JSON kode:label.",
+        "urutan": 5
+    },
+    {
+        "kunci": "notifikasi.pengingat_sebelum_mulai_menit",
+        "nilai": "60",
+        "tipe": "integer",
+        "grup": "notifikasi",
+        "label": "Kirim pengingat (menit sebelum mulai)",
+        "keterangan": null,
+        "urutan": 1
+    },
+    {
+        "kunci": "notifikasi.interval_terlambat_jam",
+        "nilai": "24",
+        "tipe": "integer",
+        "grup": "notifikasi",
+        "label": "Ulangi pengingat alat terlambat (jam)",
+        "keterangan": null,
+        "urutan": 2
+    },
+    {
+        "kunci": "notifikasi.polling_detik",
+        "nilai": "30",
+        "tipe": "integer",
+        "grup": "notifikasi",
+        "label": "Cek notifikasi baru setiap (detik)",
+        "keterangan": null,
+        "urutan": 3
+    },
+    {
+        "kunci": "laporan.kolom_ekspor",
+        "nilai": "[\"no\",\"peminjam\",\"ruang\",\"alat\",\"mulai\",\"selesai\",\"status\",\"denda\"]",
+        "tipe": "json",
+        "grup": "laporan",
+        "label": "Kolom ekspor default",
+        "keterangan": "Kolom yang tercentang otomatis saat ekspor.",
+        "urutan": 1
+    },
+    {
+        "kunci": "aplikasi.nama_aplikasi",
+        "nilai": "Peminjaman Kampus",
+        "tipe": "string",
+        "grup": "aplikasi",
+        "label": "Nama aplikasi",
+        "keterangan": "Tampil di menu, judul tab browser, dan halaman login.",
+        "urutan": 0
+    },
+    {
+        "kunci": "aplikasi.logo_aplikasi",
+        "nilai": null,
+        "tipe": "file",
+        "grup": "aplikasi",
+        "label": "Logo aplikasi",
+        "keterangan": "Logo di menu, halaman login, dan ikon tab browser. Kosong = logo bawaan public/img/logo.svg. PNG/JPG persegi, maks 1 MB.",
+        "urutan": 0
+    },
+    {
+        "kunci": "aplikasi.nama_instansi",
+        "nilai": "Universitas Contoh Nusantara",
+        "tipe": "string",
+        "grup": "aplikasi",
+        "label": "Nama instansi",
+        "keterangan": "Tampil di kop PDF.",
+        "urutan": 1
+    },
+    {
+        "kunci": "aplikasi.unit",
+        "nilai": "Bagian Sarana dan Prasarana",
+        "tipe": "string",
+        "grup": "aplikasi",
+        "label": "Nama unit",
+        "keterangan": "Baris kedua kop PDF.",
+        "urutan": 2
+    },
+    {
+        "kunci": "aplikasi.logo",
+        "nilai": null,
+        "tipe": "file",
+        "grup": "aplikasi",
+        "label": "Logo instansi (kop PDF)",
+        "keterangan": "Dipakai di kop bukti dan laporan PDF. PNG/JPG, maks 1 MB.",
+        "urutan": 3
+    },
+    {
+        "kunci": "aplikasi.peran_registrasi",
+        "nilai": "peminjam",
+        "tipe": "string",
+        "grup": "aplikasi",
+        "label": "Peran untuk akun baru (kode peran)",
+        "keterangan": null,
+        "urutan": 4
+    }
+]

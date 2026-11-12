@@ -1,0 +1,14 @@
+[
+    {
+        "nama": "Semester Genap 2025/2026",
+        "tanggal_mulai": "2026-02-01",
+        "tanggal_selesai": "2026-07-31",
+        "aktif": true
+    },
+    {
+        "nama": "Semester Ganjil 2026/2027",
+        "tanggal_mulai": "2026-08-01",
+        "tanggal_selesai": "2027-01-31",
+        "aktif": true
+    }
+]

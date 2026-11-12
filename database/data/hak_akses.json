@@ -1,0 +1,67 @@
+[
+    {
+        "kode": "ajukan-peminjaman",
+        "nama": "Mengajukan peminjaman",
+        "grup": "Peminjaman"
+    },
+    {
+        "kode": "akses-panel-admin",
+        "nama": "Membuka menu admin",
+        "grup": "Umum"
+    },
+    {
+        "kode": "kelola-ruang",
+        "nama": "Mengelola data ruang",
+        "grup": "Data Master"
+    },
+    {
+        "kode": "kelola-alat",
+        "nama": "Mengelola data alat",
+        "grup": "Data Master"
+    },
+    {
+        "kode": "proses-persetujuan",
+        "nama": "Menyetujui dan menolak pengajuan",
+        "grup": "Peminjaman"
+    },
+    {
+        "kode": "lihat-semua-peminjaman",
+        "nama": "Melihat semua riwayat peminjaman",
+        "grup": "Peminjaman"
+    },
+    {
+        "kode": "catat-pengembalian",
+        "nama": "Mencatat pengembalian alat",
+        "grup": "Pengembalian & Denda"
+    },
+    {
+        "kode": "kelola-denda",
+        "nama": "Menandai denda lunas",
+        "grup": "Pengembalian & Denda"
+    },
+    {
+        "kode": "lihat-laporan",
+        "nama": "Melihat dan mengekspor laporan",
+        "grup": "Laporan"
+    },
+    {
+        "kode": "kelola-pengaturan",
+        "nama": "Mengubah pengaturan aplikasi",
+        "grup": "Sistem"
+    },
+    {
+        "kode": "kelola-template-notifikasi",
+        "nama": "Mengubah template notifikasi",
+        "grup": "Sistem"
+    },
+    {
+        "kode": "kelola-peran",
+        "nama": "Mengelola peran dan hak akses",
+        "grup": "Sistem"
+    },
+    {
+        "kode": "kelola-pengguna",
+        "nama": "Mengelola pengguna",
+        "grup": "Sistem"
+    }
+]

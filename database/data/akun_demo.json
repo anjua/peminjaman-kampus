@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Admin Sarpras",
+        "email": "admin@kampus.test",
+        "password": "password",
+        "peran": "admin",
+        "nim_nip": "198701012010011001",
+        "untuk": "Semua fitur, termasuk pengaturan dan laporan"
+    },
+    {
+        "name": "Petugas Sarpras",
+        "email": "petugas@kampus.test",
+        "password": "password",
+        "peran": "petugas",
+        "nim_nip": "199002022015021002",
+        "untuk": "Persetujuan dan pengembalian saja"
+    },
+    {
+        "name": "Budi Santoso",
+        "email": "mhs@kampus.test",
+        "password": "password",
+        "peran": "peminjam",
+        "nim_nip": "2311010001",
+        "untuk": "Peminjam biasa"
+    },
+    {
+        "name": "Siti Rahma",
+        "email": "mhs2@kampus.test",
+        "password": "password",
+        "peran": "peminjam",
+        "nim_nip": "2311010002",
+        "untuk": "Peminjam kedua untuk uji bentrok"
+    },
+    {
+        "name": "Andi Wijaya",
+        "email": "denda@kampus.test",
+        "password": "password",
+        "peran": "peminjam",
+        "nim_nip": "2311010003",
+        "untuk": "Punya denda belum lunas (aturan blokir), dibuat oleh demo:isi"
+    }
+]
