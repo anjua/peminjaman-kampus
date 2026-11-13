@@ -18,7 +18,7 @@
 <div class="row g-4 mb-4">
     @foreach ([
     ['Menunggu persetujuan', $admin['menunggu'], 'ti-hourglass', 'warning', route('admin.persetujuan.index')],
-    ['Disetujui hari ini', $admin['hari_ini'], 'ti-calendar-check', 'success', route('kalender.index')],
+    ['Disetujui hari ini', $admin['hari_ini'], 'ti-calendar', 'success', route('kalender.index')],
     ['Ruang sedang dipakai', $admin['ruang_dipakai'] . ' / ' . $admin['ruang_total'], 'ti-door', 'primary',
     route('kalender.index')],
     ['Alat terlambat', $admin['terlambat'], 'ti-alert-triangle', 'danger', route('admin.pengembalian.index')],

@@ -36,7 +36,6 @@
     <link rel="stylesheet" href="{{ asset('assets/vendor/libs/sweetalert2/sweetalert2.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendor/libs/animate-css/animate.css') }}" />
 
-    <!-- CSS khusus halaman -->
     @stack('page-css')
     <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
 
@@ -54,8 +53,7 @@
                 @include('layouts.partials.navbar')
 
                 <div class="content-wrapper">
-                    <div class="container-xxl flex-grow-1 container-p-y">
-                        {{-- Breadcrumb dan judul halaman --}}
+                    <div class="container-fluid flex-grow-1 container-p-y">
                         <div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-2">
                             <div>
                                 <h4 class="fw-bold mb-1">@yield('title')</h4>

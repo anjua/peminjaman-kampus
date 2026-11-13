@@ -4,8 +4,8 @@
             <span class="app-brand-logo demo">
                 <img src="{{ $logoUrl }}" alt="" width="30" height="30" style="object-fit: contain">
             </span>
-            <span class="app-brand-text demo menu-text fw-bold ms-2 text-truncate"
-                style="font-size: 0.95rem; max-width: 172px" title="{{ $namaAplikasi }}">{{ $namaAplikasi }}</span>
+            <span class="app-brand-text demo menu-text fw-bold ms-3"
+                  title="{{ $namaAplikasi }}">{{ $namaAplikasi }}</span>
         </a>
         <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
             <i class="ti menu-toggle-icon d-none d-xl-block ti-sm align-middle"></i>
