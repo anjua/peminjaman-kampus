@@ -180,6 +180,14 @@ const bahasaTabel = {
         previous: '<i class="ti ti-chevron-left ti-sm"></i>',
     },
 };
+// Kontrol DataTables (Show entries & Cari) pakai ukuran normal, bukan -sm bawaan DataTables
+if (window.jQuery && jQuery.fn.dataTable) {
+    jQuery.extend(jQuery.fn.dataTable.ext.classes, {
+        sLengthSelect: "form-select",
+        sFilterInput: "form-control",
+    });
+}
+
 const domTabel =
     '<"card-header d-flex flex-wrap gap-2 justify-content-between align-items-center pb-md-0"<"d-flex align-items-center gap-2"l><"d-flex align-items-center gap-2"fB>>t<"row mx-2"<"col-sm-12 col-md-6"i><"col-sm-12 col-md-6"p>>';
 

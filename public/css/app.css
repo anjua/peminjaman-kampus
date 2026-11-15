@@ -33,3 +33,9 @@
     display: block;
     margin-bottom: 0.5rem;
 }
+
+/* Pagination DataTables ukuran normal (menimpa ukuran kecil dari datatables.bootstrap5.css) */
+div.dataTables_wrapper div.dataTables_paginate ul.pagination .page-link {
+    min-width: calc(2.1255rem + 0px);
+    font-size: 0.9375rem;
+}
