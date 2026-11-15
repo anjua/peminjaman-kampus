@@ -36,6 +36,11 @@
 
 /* Pagination DataTables ukuran normal (menimpa ukuran kecil dari datatables.bootstrap5.css) */
 div.dataTables_wrapper div.dataTables_paginate ul.pagination .page-link {
-    min-width: calc(2.1255rem + 0px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.1255rem;
+    min-width: 2.1255rem;
+    padding: 0 0.5rem;
     font-size: 0.9375rem;
 }
