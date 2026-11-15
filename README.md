@@ -75,7 +75,6 @@ Rentang `[)` berarti jam selesai tidak ikut terhitung. Peminjaman 09.00–11.00 
 - PHP 8.3 atau lebih baru, dengan ekstensi `pdo_pgsql`, `pgsql`, `gd`, dan `zip`
 - Composer 2
 - PostgreSQL 16
-- Template **Vuexy 9.0.1 versi HTML**. Template ini berlisensi, jadi tidak disertakan di repo ini.
 
 ### 2. Ambil kode dan pasang paket
 
@@ -87,21 +86,9 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-### 3. Pasang aset Vuexy
+> **Catatan aset tampilan:** aset template Vuexy 9.0.1 versi HTML sudah disertakan di repo ini (folder `public/assets`), jadi tidak perlu dipasang terpisah. Template Vuexy berlisensi komersial milik pembuatnya (Pixinvent).
 
-Salin folder `assets` dari paket Vuexy ke `public/assets`.
-
-```bash
-# Windows
-xcopy C:\lokasi\vuexy\assets public\assets /E /I
-
-# Linux / macOS
-cp -r /lokasi/vuexy/assets public/assets
-```
-
-Setelah disalin, harus ada file seperti `public/assets/vendor/css/rtl/core.css` dan `public/assets/js/main.js`. Folder ini sudah tercantum di `.gitignore`.
-
-### 4. Siapkan database
+### 3. Siapkan database
 
 Jalankan di `psql` sebagai user `postgres`:
 
@@ -126,7 +113,7 @@ DB_USERNAME=peminjaman
 DB_PASSWORD=ganti-password
 ```
 
-### 5. Buat tabel, isi data, dan jalankan
+### 4. Buat tabel, isi data, dan jalankan
 
 ```bash
 php artisan migrate --seed
@@ -180,4 +167,4 @@ tests/Feature/           feature test
 
 ## Lisensi
 
-Kode aplikasi ini dibuat untuk keperluan tugas kuliah. Template Vuexy adalah milik Pixinvent dan memerlukan lisensi sendiri, sehingga tidak disertakan di repo ini.
+Kode aplikasi ini dibuat untuk keperluan tugas kuliah. Aset template Vuexy di folder `public/assets` adalah milik Pixinvent dan berlisensi komersial.
