@@ -176,8 +176,8 @@ const bahasaTabel = {
     loadingRecords: "Memuat...",
     processing: "Memuat...",
     paginate: {
-        next: '<i class="ti ti-chevron-right ti-sm"></i>',
-        previous: '<i class="ti ti-chevron-left ti-sm"></i>',
+        next: '<i class="ti ti-chevron-right ti-xs"></i>',
+        previous: '<i class="ti ti-chevron-left ti-xs"></i>',
     },
 };
 // Kontrol DataTables (Show entries & Cari) pakai ukuran normal, bukan -sm bawaan DataTables
